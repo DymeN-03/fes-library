@@ -11,7 +11,7 @@ body {
     overflow-x: hidden;
 }
 
-nav{
+nav {
     height: 80px;
     display: flex;
 }
@@ -27,7 +27,7 @@ p {
     line-height: 1.25;
 }
 
-.nav__container{
+.nav__container {
     width: 100%;
     max-width: 1200px;
     padding: 0 24px;
@@ -139,6 +139,14 @@ button:active {
     padding: 56px 0;
 }
 
+.container__footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(232, 216, 195, 1);
+    font-size: 16px;
+}
+
 .row {
     width: 100%;
     max-width: 1200px;
@@ -228,6 +236,7 @@ FEATURES
 
 .books {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .book {
